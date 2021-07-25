@@ -1,0 +1,25 @@
+{
+  "name": "fast-name",
+  "version": "0.0.0",
+  "description": "快速识别出高分名字",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dayjs": "^1.10.6",
+    "debug": "^4.3.2",
+    "fs-extra": "^10.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "ora": "^5.4.1",
+    "prettier": "^2.3.2"
+  }
+}
